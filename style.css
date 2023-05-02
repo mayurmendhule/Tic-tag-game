@@ -1,0 +1,56 @@
+body{
+	background-image: linear-gradient(to right, #64fefd,#c99cb0 );
+}
+table {
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+
+td {
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+h1{
+
+    text-align: center;
+    font-size: 48px;
+    color: red;
+}
+h2{
+	text-align: center;
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+#turn{
+	text-align: center;
+    margin: 10px;
+    font-size: 24px;
+}
+#result {
+	font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+	margin: 10px auto;
+    display: block;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid gray;
+	color: azure;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #A0FE64,#FA016D )
+}
+button:hover{
+	background-image: linear-gradient(to right, #cdefb8,#e8a0bf );
+	color: black;
+	
+}
